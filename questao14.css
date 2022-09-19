@@ -1,0 +1,25 @@
+.centro {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.circulo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: rgb(255, 131, 15);
+    position: relative;
+}
+
+.circulo:hover {
+    width: 200px;
+    height: 100px;
+    border-radius: 0%;
+    transition: 0.5s;
+}

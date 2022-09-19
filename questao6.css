@@ -1,0 +1,38 @@
+.centro {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.quadrado {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    position: relative;
+    animation: animation 10s linear;
+}
+
+@keyframes animation {
+    0% {transform: rotate(0);}
+    10% {transform: rotate(45deg);
+        background-color: rgb(221, 85, 149);}
+    25% {transform: rotate(90deg);
+        background-color: rgb(143, 187, 236);}
+    40% {transform: rotate(135deg);
+        background-color: rgb(166, 180, 85);}
+    55% {transform: rotate(180deg);
+        background-color: rgb(243, 158, 102);}
+    70% {transform: rotate(225deg);
+        background-color: rgb(105, 226, 125);}
+    75% {transform: rotate(270deg);
+        background-color: rgb(172, 66, 66);}
+    85% {transform: rotate(315deg);
+        background-color: rgb(139, 22, 235);}
+    100% {transform: rotate(360deg);
+        background-color: rgb(241, 243, 107);}
+}

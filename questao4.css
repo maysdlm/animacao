@@ -1,0 +1,21 @@
+.circulo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: rgb(255, 153, 0);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+@keyframes animation {
+    from {
+        left: 10%;
+    }
+    to {
+        left: 500px;
+    }
+}

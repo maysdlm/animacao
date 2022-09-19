@@ -1,0 +1,28 @@
+.centro {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+.circulo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: orangered;
+    position: relative;
+    animation: animation 1s 3;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(1); 
+      }
+    100% {
+        transform: scale(1.1);
+      }
+}

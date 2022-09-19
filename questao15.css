@@ -1,0 +1,29 @@
+.centro {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.circulo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: rgb(255, 131, 15);
+    position: absolute;
+    top: 10%;
+    animation: animation 6s linear;
+}
+
+@keyframes animation {
+    0% {left: 0;}
+    12.5% {left: 125px; top: 200px;}
+    25% {left: 250px; top: 0px;}
+    37.5% {left: 375px; top: 200px;}
+    50% {left: 500px; top: 0px;}
+    62.5% {left: 625px; top: 200px;}
+    75% {left: 750px; top: 0px;}
+    87.5% {left: 875px; top: 200px;}
+    100% {left: 1000px; top: 0px;}
+}
