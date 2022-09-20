@@ -12,7 +12,7 @@
 .conteudo img{
     height: 200px;
     width: 200px;
-    position: relative;
+    position: absolute;
     animation: animation 4s linear;
 }
 
